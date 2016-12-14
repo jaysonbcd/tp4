@@ -1,4 +1,56 @@
+ .titre{
+      background-color : #C0C0C0;
+      text-align : center;
+   font-family: Arial;
+      padding : 10px ;
+    }
+
+    nav{
+      text-align : center;
+    }
+
+		article {
+    background-color:red;
+/*		display : inline flex;*/
+		float : left;
+width:500px;
+}
+		.droite{
+			text-align : right;
+		}
+		.gauche{
+			text-align: left;
+		}
+    li{
+      display : inline;
+			margin-left: 70;
+			margin-right: 70;
+			text-align:center;
+    }
+
+
+      img{
+    margin: 5px;
+    height: 350px;
+    box-shadow: 8px 8px 3px #aaa;
+				
+      }
+    header{
+      margin-left: auto;
+      margin-right : auto ;
+      
+    }
 ul{
   font-size : 16pt;
     color : blue;
+}
+
+aside {
+  background-color: green;
+  
+}
+
+section {
+  background-color: blue;
+  width:1000px;
 }
